@@ -12,6 +12,17 @@ A project is supposed to follow some steps:
 - [x] Present your solution.
 - [x] Launch, monitor, and maintain your system.
 
+## Look at Big Picture and Frame the Problem
+
+### Frame the problem
+the sponsor of the project has the goal to use median price predicted in an evaluation process of an investment. That means we are in an asynchrone pipeline where the project is just the first part and out will be used in subsequents parts.
+The objective is the *prediction of district's house median price*.
+Currently is is a team of expert which make that task by estimation, quess and their knowledge of the enviroment.
+
+We are in **surpervised machine learning** situation, specifically a *regression* (a **multiple uni**variate regression). As the data flow is not rapid, we will use an **offline** architecture. 
+
+### Select a criteria of performance
+
 ## Data Project Template
 
 <a target="_blank" href="https://datalumina.com/">
