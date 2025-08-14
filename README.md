@@ -1,13 +1,27 @@
-# Data Project Template
+# Machine Learning Project - End to End Housing Price Predictions
+
+We will follow the example given in the book *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition [Aurelien Geroux]*.
+
+A project is supposed to follow some steps:
+- [x] Look at the big picture.
+- [x] Get the data.
+- [x] Explore and visualize the data to gain insights.
+- [x] Prepare the data for machine learning algorithms.
+- [x] Select a model and train it.
+- [x] Fine-tune your model.
+- [x] Present your solution.
+- [x] Launch, monitor, and maintain your system.
+
+## Data Project Template
 
 <a target="_blank" href="https://datalumina.com/">
     <img src="https://img.shields.io/badge/Datalumina-Project%20Template-2856f7" alt="Datalumina Project" />
 </a>
 
-## Cookiecutter Data Science
+### Cookiecutter Data Science
 This project template is a simplified version of the [Cookiecutter Data Science](https://cookiecutter-data-science.drivendata.org) template, created to suit the needs of Datalumina and made available as a GitHub template.
 
-## Adjusting .gitignore
+### Adjusting .gitignore
 
 Ensure you adjust the `.gitignore` file according to your project needs. For example, since this is a template, the `/data/` folder is commented out and data will not be exlucded from source control:
 
@@ -18,7 +32,7 @@ Ensure you adjust the `.gitignore` file according to your project needs. For exa
 
 Typically, you want to exclude this folder if it contains either sensitive data that you do not want to add to version control or large files.
 
-## Duplicating the .env File
+### Duplicating the .env File
 To set up your environment variables, you need to duplicate the `.env.example` file and rename it to `.env`. You can do this manually or using the following terminal command:
 
 ```bash
@@ -29,7 +43,7 @@ copy .env.example .env # Windows Command Prompt
 This command creates a copy of `.env.example` and names it `.env`, allowing you to configure your environment variables specific to your setup.
 
 
-## Project Organization
+### Project Organization
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
