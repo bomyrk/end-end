@@ -15,7 +15,7 @@ A project is supposed to follow some steps:
 ## Look at Big Picture and Frame the Problem
 
 ### Frame the problem
-the sponsor of the project has the goal to use median price predicted in an evaluation process of an investment. That means we are in an asynchrone pipeline where the project is just the first part and out will be used in subsequents parts.
+The sponsor of the project has the goal to use median price predicted in an evaluation process of an investment. That means we are in an asynchrone pipeline where the project is just the first part and out will be used in subsequents parts.
 The objective is the *prediction of district's house median price*.
 Currently is is a team of expert which make that task by estimation, quess and their knowledge of the enviroment.
 
